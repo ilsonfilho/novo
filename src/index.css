@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.item {
+  background: gray;
+  color: black;
+  border: 2px solid #1313;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background: lime;
+}
