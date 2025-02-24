@@ -20,7 +20,7 @@ jobs:
         node-version: '23.x'
         
     - name: Instalar dependências
-      run: pnpm install
+      run: npm install
       
     - name: Executar testes
-      run: pnpm test
+      run: npm test
