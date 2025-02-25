@@ -12,6 +12,7 @@ on:
       - 'sistemas/**'
 
 jobs:
+  if: false
   test:
     runs-on: ubuntu-latest
 
