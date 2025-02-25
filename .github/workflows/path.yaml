@@ -12,8 +12,8 @@ on:
       - 'sistemas/**'
 
 jobs:
-  if: false
   test:
+    if: false
     runs-on: ubuntu-latest
 
     steps:
