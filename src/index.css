@@ -21,8 +21,14 @@
   background: lime;
 }
 
-.botao {
-  @apply px-4 py-2 rounded m-2 hover:opacity-80
+
+@theme {
+  --color-cor1: #ccc;
+  --color-cor2: #000;
+}
+
+button {
+  @apply px-4 py-2 rounded m-2 hover:opacity-80 bg-cor1 text-cor2 hover:opacity-30
 }
 
 @theme {
