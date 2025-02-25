@@ -8,6 +8,8 @@ on:
   # workflow_dispatch:
   # schedule:
     # - cron: '*/2 * * * *'
+    paths:
+      - 'sistema1/**'
 
 jobs:
   test:
